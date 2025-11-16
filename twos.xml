@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remote -->
+  <!-- Use my name for Lineage Manifest -->
+  <remote name="twos_remote"
+          fetch="https://github.com/Azeno42/"
+          revision="main" />
+
+  <!-- Import bootable/recovery from TwOS repo's -->
+  <project path="bootable/recovery" 
+           name="TwOS_Core-gts4lvwifi" 
+           remote="twos_remote" />
+           
+  <!-- New updates come here -->
+           
+</manifest>
