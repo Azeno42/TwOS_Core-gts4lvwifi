@@ -26,6 +26,7 @@ Ensure all packages required for LineageOS building (OpenJDK, Python, etc.) are 
 
 ### Get the Repo tool
 > mkdir -p ~/twos_local_build
+
 > cd ~/twos_local_build/
 
 ### Download the TwOS manifest
